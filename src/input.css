@@ -1,0 +1,32 @@
+@import url("https://www.fontshare.com/fonts/clash-display");
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Montserrat:wght@300&family=Roboto:ital,wght@1,300&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .font-montserrat {
+        font-family: 'Agdasima', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Roboto', sans-serif;
+    }
+}
+
+@layer base {
+    .font-clashdisplay {
+        font-family: 'ClashDisplay-Bold';
+        src: url('../fonts/ClashDisplay-Bold.woff2') format('woff2'),
+             url('../fonts/ClashDisplay-Bold.woff') format('woff'),
+             url('../fonts/ClashDisplay-Bold.ttf') format('truetype');
+             font-weight: 700;
+             font-display: swap;
+             font-style: normal;    
+    }
+}
+
+@layer base {
+    /* div div button {
+        @apply border border-transparent text-base font-semibold hover:bg-slate-500 opacity-80 rounded-md px-3 py-2 transition-colors duration-700
+    } */
+}
